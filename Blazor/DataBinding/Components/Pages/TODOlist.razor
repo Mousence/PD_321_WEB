@@ -13,7 +13,7 @@
 			{
 				@if (!i.IsDONE)
 				{
-					<li><input type="checkbox" @bind="i.IsDONE" @onclick="() => i.CompletedTime = DateTime.Now"/> @i.Title - @i.AssignedTime</li>
+					<li><input type="checkbox" @bind="i.IsDONE" @onclick="() => i.CompletedTime = DateTime.Now" /> @i.Title - @i.AssignedTime </li>
 				}
 			}
 		</ol>
